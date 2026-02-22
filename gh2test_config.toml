@@ -10,6 +10,7 @@ setjmp_address = 0x82690C90
 longjmp_address = 0x82690A40
 
 [functions]
+0x82274978 = { name = "rex_sub_82274978", size = 0x64  }
 0x826A18D8 = { name = "rex_sub_826A18D8", size = 0x8  }
 0x8268A2D0 = { name = "rex_sub_8268A2D0", size = 0x8   }
 0x826a4568 = { name = "rex_sub_826a4568", size = 0x8  }
