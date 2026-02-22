@@ -16,6 +16,4 @@ Recompiled using the [ReXGlue SDK](https://github.com/rexglue/rexglue-sdk)
 1. Launch with first argument pointing to the assets folder
 
 # Videos
-## [First 10 Minutes (youtube)](https://youtu.be/vS95LWl0R5A)
-## [Testing Debug Menu and 60 FPS (youtube)](https://youtu.be/jdblAoyb138)
-## [Debug Overlay Testing (youtube)](https://youtu.be/eakhofIalBc)
+## [Gameplay test (youtube)](https://www.youtube.com/watch?v=2K6Op-ssJJ4)
