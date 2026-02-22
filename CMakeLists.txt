@@ -20,6 +20,7 @@ endif()
 # User source files
 set(GH2TEST_SOURCES
     src/main.cpp
+    src/arkless.cpp
 )
 
 # Platform-specific entry point (provides main/wWinMain)

@@ -10563,7 +10563,7 @@ longjmp_address = 0x82690A40
 0x822763B8 = { name = "rex_sub_822763B8", size = 0x50 }
 0x82276408 = { name = "rex_sub_82276408", size = 0x324 }
 0x82276730 = { name = "rex_sub_82276730", size = 0x44 }
-0x82276780 = { name = "rex_sub_82276780", size = 0x1F0 }
+0x82276780 = { name = "NewFile", size = 0x1F0 }
 0x82276970 = { name = "rex_sub_82276970", size = 0x28 }
 0x82276998 = { name = "rex_sub_82276998", size = 0x58 }
 0x822769F0 = { name = "rex_sub_822769F0", size = 0x64 }
@@ -28583,3 +28583,9 @@ longjmp_address = 0x82690A40
 0x8270FCD0 = { name = "rex_sub_8270FCD0", size = 0xC4CC }
 0x8271C1A0 = { name = "rex_sub_8271C1A0", size = 0x1490 }
 0x8271D630 = { name = "rex_sub_8271D630", size = 0x5BEC }
+
+[[midasm_hook]]
+address = 0x82276780
+name = "NewFileHook"
+registers = ["r3", "r4"]
+after_instruction = false
