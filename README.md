@@ -1,4 +1,4 @@
-# reblue - Blue Dragon Recompiled
+# re-gh2 - Guitar Hero II Recompiled
 
 > [!IMPORTANT]
 > This is a proof of concept and uses a version of rexglue that may break this in the future due to it being still in development.
