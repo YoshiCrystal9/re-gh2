@@ -1,5 +1,5 @@
-#include <rex/runtime/guest/context.h>
-#include <rex/runtime/guest/types.h>
+#include <rex/ppc/context.h>
+#include <rex/ppc/types.h>
 #include <rex/logging.h>
 #include <filesystem>
 #include <system_error>
@@ -20,9 +20,9 @@ static std::filesystem::path SanitizePath(const char* cc) {
 
 void NewFileHook(PPCRegister& r3, PPCRegister& r4) {
     uint32_t cc_addr = r3.u32;
-    if (!cc_addr || !rex::runtime::guest::g_memory_base) return;
+    if (!cc_addr || !rex::g_memory_base) return;
 
-    const char* cc = reinterpret_cast<const char*>(rex::runtime::guest::g_memory_base + cc_addr);
+    const char* cc = reinterpret_cast<const char*>(rex::g_memory_base + cc_addr);
     if (!cc || !*cc) return;
 
     std::error_code ec;
