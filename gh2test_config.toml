@@ -10,6 +10,8 @@ out_directory_path = "generated"
 setjmp_address = 0x826A7300
 longjmp_address = 0x826A70B0
 
+d3d12_readback_resolve = true
+
 [functions]
 0x82120008 = { name = "rex_sub_82120008", size = 0x50 }
 0x82120058 = { name = "rex_sub_82120058", size = 0x28 }
@@ -28739,6 +28741,7 @@ longjmp_address = 0x826A70B0
 0x82733C30 = { name = "rex_sub_82733C30", size = 0x5BEC }
 0x826A08B0 = { name = "rex_sub_826A08B0", size = 0x8 }
 0x826DED50 = { name = "rex_sub_826DED50", size = 0x18 }
+0x822749f0 = { name = "rex_sub_822749f0", size = 0x64 }
 
 [[midasm_hook]]
 address = 0x822767F8
