@@ -1,4 +1,4 @@
 [submodule "thirdparty/rexglue-sdk"]
 	path = thirdparty/rexglue-sdk
-	url = https://github.com/tomcl7/rexglue-sdk.git
-	branch = feat/rexsystem
+	url = https://github.com/rexglue/rexglue-sdk.git
+	branch = main
