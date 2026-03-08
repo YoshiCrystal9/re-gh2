@@ -30396,3 +30396,21 @@ address = 0x822767F8
 name = "NewFileHook"
 registers = ["r3", "r4"]
 after_instruction = false
+
+[[midasm_hook]]
+address = 0x8227B5A8
+name = "GuitarHook"
+registers = ["r11"]
+after_instruction = true
+
+[[midasm_hook]]
+address = 0x822CFA9C
+name = "AudioOffsetHookPractice"
+registers = ["f1"]
+after_instruction = true
+
+[[midasm_hook]]
+address = 0x822CFAC0
+name = "AudioOffsetHook"
+registers = ["f1"]
+after_instruction = true

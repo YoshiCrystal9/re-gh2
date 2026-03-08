@@ -31,6 +31,7 @@ endif()
 set(GH2TEST_SOURCES
     src/main.cpp
     src/arkless.cpp
+    src/patches.cpp
 )
 
 # Include generated code if codegen has been run
